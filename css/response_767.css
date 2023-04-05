@@ -1,0 +1,234 @@
+@media print, (max-width: 767px) {
+
+    :root {
+        --font_size: 18px;
+        --font_size_title: 20px;
+    }
+ 
+    .benefits_items {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .benefits_items > * {
+        width: calc(100%/2 - 30px);
+    }
+    header:after {
+        display: none;
+    }
+    .callback::before {
+        display: none;
+    }
+    .form_bottom {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .form_politic {
+        margin-left: 0;
+        margin-top: 15px;
+    }
+    .request form:before {
+        width: 372px;
+        height: 277px;
+        right: -20px;
+        bottom: -20px;
+    }
+    .header_logo span {
+        display: none;
+    }
+    .header_logo img {
+        width: 116px;
+        height: 48px;
+    }
+    .header_callback a {
+        font-size: 20px;
+    }
+    .partners .slider {
+        padding: 30px 0;
+    }
+    header {
+        margin-bottom: 20px;
+        background-position: center;
+        background-size: cover;
+        background-image: linear-gradient(360deg, #000000 43.95%, rgba(0, 0, 0, 0.51) 60.09%, rgba(0, 0, 0, 0) 70.29%, rgba(0, 0, 0, 0.3) 91.36%, rgba(0, 0, 0, 0.7) 100%), url(../images/header_bg_mob.png);
+    }
+    .callback {
+        padding: 280px 0 30px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center top;
+        background-image: linear-gradient(360deg, #000000 41.9%, rgba(0, 0, 0, 0.51) 56.12%, rgba(0, 0, 0, 0) 70.84%), url(../images/callback_bg_mob.png);
+        position: relative;
+    }
+    .privilege {
+        padding: 263px 0 30px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center top;
+        background-image: linear-gradient(360deg, #000000 41.9%, rgba(0, 0, 0, 0.51) 60.37%, rgba(0, 0, 0, 0) 70.84%), url(../images/privilege_bg_mob.png);
+        position: relative;
+    }
+    .title {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .personal_item-info:before {
+        width: 40px;
+    }
+    .block {
+        padding: 30px 0;
+    }
+    .header_info-title {
+        font-size: 36px;
+    }
+    .personal_item:hover .personal_item-btn {
+        display: none;
+    }
+    .personal_item:hover .personal_item-img {
+        height: 195px;
+    }
+    .personal_item-price {
+        margin-bottom: 0;
+    }
+    .personal {
+        background: none;
+    }
+    .advantages {
+        background: none;
+    }
+    .advantages_items > * {
+        background: #F8F8F8;
+        padding: 20px 45px 20px 20px;
+    }
+    .advantages_item::before {
+        width: 40px;
+    }
+    .privilege_list li {
+        font-size: 14px;
+        margin-bottom: 17px;
+    }
+    form .line .field input {
+        height: 52px;
+        padding: 0 20px;
+    }
+    form .line .field label {
+        font-size: 14px;
+    }
+    .steps_item-info {
+        padding: 27px 20px 20px;
+    }
+    .nice-select {
+        height: 52px;
+        line-height: 52px;
+        padding: 0 20px;
+    }
+    form .line > * {
+        margin-bottom: 15px;
+    }
+    .nice-select:after {
+        right: 20px;
+    }
+    .form_bottom button {
+        width: 100%;
+    }
+    .form_politic {
+        width: 100%;
+    }
+    .modal.modal_thanks {
+        padding: 30px 20px;
+    }
+    .modal_thanks-text {
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+
+    .modal {
+        padding: 30px 20px;
+    }
+    .modal form .line > * {
+        width: 100%;
+    }
+    .modal_title br {
+        display: none;
+    }
+    .modal_title {
+        font-size: 17px;
+        margin-bottom: 20px;
+    }
+    .modal .form_politic {
+        font-size: 10px;
+    }
+    .modal .form_politic a {
+        font-size: 10px;
+    }
+    form .line .field input {
+        font-size: 14px;
+    }
+    input::-webkit-input-placeholder {
+        font-size: 14px; 
+    }
+    input::-moz-placeholder {
+        font-size: 14px;  
+    }
+    input:-moz-placeholder {
+        font-size: 14px;
+    }
+    input:-ms-input-placeholder {
+        font-size: 14px;
+    }
+    .nice-select {
+        font-size: 14px;
+    }
+    .header_info {
+        margin-top: 285px;
+    }
+    .header_info-title {
+        margin-bottom: 20px;
+    }
+    .benefits_items > * {
+        align-items: center;
+    }
+    .benefits_item-title {
+        text-align: center;
+        font-size: 14px;
+    }
+    .contacts {
+        margin-top: 20px;
+    }
+    .steps_item-text {
+        font-size: 14px;
+    }
+    .steps_item-title {
+        margin-bottom: 10px;
+    }
+    .contacts_info {
+        padding: 23px 20px 30px;
+    }
+    .contacts .header_logo span {
+        display: block;
+        font-size: 14px;
+    }
+    .contacts .header_logo img {
+        width: 115px;
+        height: 48px;
+    }
+    .contacts_item-label {
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+    .contacts_item-phone {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .contacts_item span {
+        font-size: 17px;
+    }
+    .contacts_item {
+        margin-bottom: 20px;
+    }
+    footer a {
+        font-size: 14px;
+    }
+
+
+
+}
