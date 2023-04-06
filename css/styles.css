@@ -563,6 +563,12 @@ header .menu .item {
     line-height: 24px;
     color: #000000;
 }
+.media-slider {
+    padding: .625em .5em .625em 1.5em;
+}
+.media-symbol.media-pause-symbol {
+    margin-left: -2px;
+}
 
 
 
@@ -615,4 +621,5 @@ header .menu .item {
 
 footer {
     border-top: 8px solid #0057FF;
+    margin-bottom: 196px;
 }

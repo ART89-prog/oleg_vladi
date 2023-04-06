@@ -118,6 +118,7 @@
     }
     footer {
         margin-top: 59px;
+        margin-bottom: 134px;
     }
     .music_title {
         margin-bottom: 105px;
@@ -129,6 +130,9 @@
     }
     .header_img {
         right: -230px;
+    }
+    .media-symbol.media-pause-symbol {
+        margin-left: 3px;
     }
 
 

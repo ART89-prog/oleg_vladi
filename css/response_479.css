@@ -22,7 +22,7 @@
     .header_img {
         width: 320px;
         height: 445px;
-        right: 0;
+        left: 0;
     }
     .header_title {
         margin-bottom: 335px;
@@ -53,6 +53,10 @@
     }
     header .menu {
        padding: 180px 50px 313px; 
+    }
+    footer {
+        margin-top: 59px;
+        margin-bottom: 39px;
     }
     
     
