@@ -1,6 +1,9 @@
 @media print, (max-width: 1400px) {
 
-   
+    .header_info {
+        margin-left: -150px;
+        z-index: 2;
+    }
 
 
 

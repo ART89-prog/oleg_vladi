@@ -1,20 +1,10 @@
 @media print, (max-width: 1187px) {
 
-
- 
-
-    .contacts_info {
-        margin-left: 20px;
-        width: 100%;
-        clip-path: none;
+    .header_title {
+        font-size: 98px;
+        line-height: 115px;
+        margin-bottom: 50px;
     }
-    .contacts::before {
-        left: -270px;
-    }
-    .block {
-        padding: 50px 0;
-    }
-
 
 
 

@@ -278,7 +278,6 @@ button {
 
 header {
     background: linear-gradient(180deg, #ECECEC 0%, #E1E1E1 100%);
-    padding-top: 71px;
     position: relative;
 }
 header .mob_menu_btn {
@@ -287,6 +286,7 @@ header .mob_menu_btn {
     height: 57px;
     position: absolute;
     right: 20px;
+    top: 71px;
 }
 header .close_btn {
     order: 1;
@@ -361,6 +361,7 @@ header .menu.show {
     display: flex;
     position: absolute;
     right: 20px;
+    top: 71px;
 }
 header .menu .item {
     width: 100%;
@@ -368,6 +369,7 @@ header .menu .item {
 .header_img {
     width: 779px;
     height: 1084px;
+    flex-shrink: 0;
 }
 .header_img img {
     width: 100%;
