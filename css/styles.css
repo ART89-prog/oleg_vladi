@@ -598,6 +598,7 @@ header .menu .item {
 }
 .contacts_info {
     margin-top: 45px;
+    margin-right: 15px;
 }
 .contacts_email {
     font-family: 'Montserrat';

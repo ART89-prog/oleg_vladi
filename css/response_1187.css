@@ -5,6 +5,15 @@
         line-height: 115px;
         margin-bottom: 50px;
     }
+    .header_info {
+        margin-left: -215px;
+    }
+    .contacts_img {
+        margin-right: -420px;
+    }
+    footer {
+        margin-top: 27px;
+    }
 
 
 
