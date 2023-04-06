@@ -16,6 +16,9 @@
     header {
         height: 615px;
     }
+    header .menu {
+        height: 615px;
+    }
     .header_img {
         width: 320px;
         height: 445px;
@@ -27,11 +30,31 @@
     header .mob_menu_btn {
         width: 52px;
         height: 35px;
+        top: 17px;
+        right: 15px;
     }
     header .close_btn {
         width: 52px;
         height: 35px;
+        top: 17px;
     }
+    .menu_open header .close_btn {
+        top: 17px;
+        right: 15px;
+    }
+    .contacts.soc a {
+        margin-right: 9px;
+    }
+    .media-play {
+        margin-top: -170px;
+    }   
+    .music_title {
+        margin-bottom: 85px;
+    }
+    header .menu {
+       padding: 180px 50px 313px; 
+    }
+    
     
 
 
